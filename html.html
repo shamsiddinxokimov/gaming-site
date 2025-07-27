@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background: url('https://images.unsplash.com/photo-1593642634367-d91a135587b5') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    .navbar {
+      background: rgba(0,0,0,0.8);
+    }
+    .btn-gaming {
+      background: linear-gradient(45deg, #00f, #a0f);
+      border: none;
+      color: #fff;
+      margin: 0 5px;
+    }
+    .btn-gaming:hover {
+      background: linear-gradient(45deg, #a0f, #00f);
+    }
+    .card {
+      background: rgba(0,0,0,0.7);
+      color: #fff;
+    }
+    footer {
+      background: rgba(0,0,0,0.8);
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="#">🎮 GameZone</a>
+    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon text-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="ms-auto">
+        <a href="#home" class="btn btn-gaming">Home</a>
+        <a href="#shop" class="btn btn-gaming">Shop</a>
+        <a href="#about" class="btn btn-gaming">About</a>
+        <a href="#contact" class="btn btn-gaming">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Home section -->
+<section id="home" class="container my-5 pt-5">
+  <h1 class="text-center mt-5">Welcome to GameZone 🎮</h1>
+  <p class="text-center">Top gaming products, accessories and more!</p>
+</section>
+
+<!-- Shop section -->
+<section id="shop" class="container my-5">
+  <h2 class="text-center mb-4">🪑 Gaming stollar & aksessuarlar</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="s.jpg" class="card-img-top" alt="Gaming stol">
+        <div class="card-body">
+          <h5 class="card-title">Gaming Stol Pro</h5>
+          <p class="card-text">Ergonomik dizayn, LED yoritish bilan.</p>
+          <a href="#" class="btn btn-gaming">Savatchaga qo'shish 🛒</a>
+        </div>
+      </div>
+    </div>
+    <!-- Yana ikki card -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="b.jpg" class="card-img-top" alt="Gaming kreslo">
+        <div class="card-body">
+          <h5 class="card-title">Gaming Kreslo X</h5>
+          <p class="card-text">Yumshoq va qulay, professional o'yinchilar uchun.</p>
+          <a href="#" class="btn btn-gaming">Savatchaga qo'shish 🛒</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="a.jpg" class="card-img-top" alt="Aksessuarlar">
+        <div class="card-body">
+          <h5 class="card-title">Gaming Aksessuarlar</h5>
+          <p class="card-text">Stol lampalari, quloqchin, klaviatura va boshqalar.</p>
+          <a href="#" class="btn btn-gaming">Savatchaga qo'shish 🛒</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About section -->
+<section id="about" class="container my-5">
+  <h3 class="text-center mb-3">📜 Biz haqimizda</h3>
+  <p class="text-center">GameZone – bu professional gamerlar uchun sifatli stollar, kreslolar va aksessuarlar do‘koni. Sizga sifat, qulaylik va zamonaviy dizaynni taqdim etamiz!</p>
+</section>
+
+<!-- Contact / Registration section -->
+<section id="contact" class="container my-5">
+  <h3 class="mb-3">📝 Izoh qoldiring va ro'yxatdan o'ting</h3>
+  <form>
+    <div class="mb-3">
+      <textarea class="form-control" placeholder="Izohingizni yozing..." rows="3"></textarea>
+    </div>
+    <div class="mb-3 d-flex">
+      <input type="email" class="form-control me-2" placeholder="Email">
+      <button type="submit" class="btn btn-gaming">Ro'yxatdan o'tish</button>
+      <a href="#" class="btn btn-gaming ms-2">🛒 Savatcha</a>
+    </div>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+  <p>Biz haqimizda | Aloqa | Xizmatlar | Shartlar</p>
+  <p>© 2025 GameZone</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
